@@ -1,16 +1,31 @@
-import { StyleSheet, View, Text } from 'react-native'
+import { StyleSheet, Text, View,Button } from 'react-native'
 import React from 'react'
-import Logo from './componeents/Logo';
-import styles from './componeents/styles';
 
-const App = () => {
-  return (
-    <View style={styles.container}>
-      <Text style={[styles.title, styles.warning]}>Hello React Native</Text>
-      <Logo />
-    </View>
-  )
+ const App = () => {
+
+
+const showData = () => {
+  alert("Hello")
 }
 
+  return (
+    <View style = {styles.container}>
+      <Text>Button Example</Text>
+      <Button
+        onPress={showData}
+        title ='Click Me' 
+        color= 'red'
+      />
+    </View>
+  )
+
+  }
 export default App
 
+  const styles = StyleSheet.create({
+    container: {
+      flex: 1,
+      alignItems: 'center',
+      justifyContent: 'center'
+    }
+  });
