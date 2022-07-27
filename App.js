@@ -6,6 +6,8 @@ import ImageWithTextInput from './componeents/ImageWithTextInput'
 import ButtonExample from './componeents/ButtonExample'
 import Touchable_Example from './componeents/Touchable_Example'
 import TouchablePractice from './componeents/TouchablePractice'
+import DynamicStyle from './componeents/DynamicStyle'
+import ModelExample from './componeents/ModelExample'
 
 const App = () => {
   return (
@@ -14,7 +16,9 @@ const App = () => {
       {/* <ImageWithTextInput/> */}
       {/* <ButtonExample/> */}
       {/* <Touchable_Example/> */}
-      <TouchablePractice/>
+      {/* <TouchablePractice/> */}
+      {/* <DynamicStyle/> */}
+      <ModelExample/>
     </View>
   )
 }
