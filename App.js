@@ -5,6 +5,7 @@ import AlertComponent from './componeents/AlertComponent'
 import ImageWithTextInput from './componeents/ImageWithTextInput'
 import ButtonExample from './componeents/ButtonExample'
 import Touchable_Example from './componeents/Touchable_Example'
+import TouchablePractice from './componeents/TouchablePractice'
 
 const App = () => {
   return (
@@ -12,7 +13,8 @@ const App = () => {
       {/* <AlertComponent/> */}
       {/* <ImageWithTextInput/> */}
       {/* <ButtonExample/> */}
-      <Touchable_Example/>
+      {/* <Touchable_Example/> */}
+      <TouchablePractice/>
     </View>
   )
 }
